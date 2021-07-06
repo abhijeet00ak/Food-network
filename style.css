@@ -31,4 +31,24 @@ p{
 .half-width-img{
     width: 60%;
 }
-
+.about-part{
+    display: flex;
+    margin-bottom: 100px;
+}
+.middle-barner{
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.second-half-width-img{
+    width: 50%;
+    margin-left: 10%;
+    
+}
+.second-half-width{
+    width: 20%;
+    text-align: justify;
+    padding: 150px 200px;
+    
+}
