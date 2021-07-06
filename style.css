@@ -34,7 +34,8 @@ p {
     width: 50%;
     padding: 5%
 }
-h2{
+
+h2 {
     font-weight: bold;
 }
 
@@ -46,9 +47,11 @@ h2{
     display: flex;
     margin-bottom: 50px;
 }
-h3{
+
+h3 {
     font-weight: bold;
 }
+
 .middle-barner {
     background-image: url(images/shapes/7.png);
     background-repeat: no-repeat;
@@ -68,24 +71,60 @@ h3{
     padding: 150px 200px;
 
 }
-.foods-item{
+
+.foods-item {
     display: flex;
     margin-left: 10%;
-    
+
 }
-.foods-menu{
+
+.foods-menu {
     width: 300px;
     margin: 2%;
     padding: 2%;
-    box-shadow: 40px 40px 80px grey;
+    box-shadow: 20px 20px 40px grey;
     border-radius: 20px;
     margin-bottom: 50px;
 }
-.foods-menu img{
+
+.foods-menu img {
     width: 300px;
     height: 300px;
     border-radius: 20px;
 }
-.my-recipies{
+
+.my-recipies {
     text-align: center;
+}
+
+.social-followers {
+    display: flex;
+    width: 72%;
+
+    padding: 2%;
+    margin-left: 12%;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 10px 10px 40px grey;
+}
+
+#viewers {
+    margin-left: 17%;
+    font-weight: bold;
+
+
+}
+
+.footer {
+    width: 90%;
+    height: 150px;
+    margin: 5%;
+    padding: 1%;
+    text-align: center;
+    color: gray;
+    background-color: black;
+}
+
+.footer p {
+    color: white;
 }
