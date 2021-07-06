@@ -1,18 +1,22 @@
-body{
+body {
     font-family: 'Raleway', sans-serif;
     margin: 0;
 }
-h1{
+
+h1 {
     font-size: 50px;
     color: rgb(77, 77, 77);
 }
-.span-color{
+
+.span-color {
     color: orange;
 }
-p{
+
+p {
     color: rgb(71, 66, 66);
 }
-.link-button{
+
+.link-button {
     text-decoration: none;
     background-image: linear-gradient(orange, rgb(243, 50, 16));
     color: white;
@@ -20,35 +24,68 @@ p{
     padding: 15px 40px;
     border-radius: 25px;
 }
-.container{
+
+.container {
     display: flex;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
-.half-width{
+
+.half-width {
     width: 50%;
     padding: 5%
 }
-.half-width-img{
+h2{
+    font-weight: bold;
+}
+
+.half-width-img {
     width: 60%;
 }
-.about-part{
+
+.about-part {
     display: flex;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
-.middle-barner{
+h3{
+    font-weight: bold;
+}
+.middle-barner {
     background-image: url(images/shapes/7.png);
     background-repeat: no-repeat;
     margin-left: 5%;
     margin-right: 5%;
 }
-.second-half-width-img{
+
+.second-half-width-img {
     width: 50%;
     margin-left: 10%;
-    
+
 }
-.second-half-width{
+
+.second-half-width {
     width: 20%;
     text-align: justify;
     padding: 150px 200px;
+
+}
+.foods-item{
+    display: flex;
+    margin-left: 10%;
     
+}
+.foods-menu{
+    width: 300px;
+    margin: 2%;
+    padding: 2%;
+    box-shadow: 40px 40px 80px grey;
+    border-radius: 20px;
+    margin-bottom: 50px;
+}
+.foods-menu img{
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+}
+.my-recipies{
+    text-align: center;
 }
